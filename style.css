@@ -1,0 +1,36 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+main {
+	flex: 1 0 auto;
+}
+
+footer {
+	flex-shrink: 0;
+	background: #008080;
+	color: #FFFFFF;
+	padding: 20px 0 20px 0;
+	position: relative;
+}
+
+.rodape {
+	display: inline-block;
+	width: 46%;
+	margin: 0 1.5%;
+	text-align: right;
+}
+
+.redes {
+	display: inline-block;
+	width: 47%;
+	margin: 0 1.5%;
+	text-align: right;
+}
